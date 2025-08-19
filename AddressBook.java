@@ -51,4 +51,15 @@ public class AddressBook {
 		}
 		System.out.println("Contact with name " + firstName + " not found.");
 	}
+
+	public void deleteContact(String firstName) {
+		for (int i = 0; i < contacts.size(); i++) {
+			if (contacts.get(i).getFirstName().equalsIgnoreCase(firstName)) {
+				contacts.remove(i);
+				System.out.println("Contact with name " + firstName + " deleted successfully!");
+				return;
+			}
+		}
+		System.out.println("Contact with name " + firstName + " not found.");
+	}
 }
