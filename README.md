@@ -19,10 +19,9 @@ Each branch represents a specific functionality added to the Address Book System
 - *master* → Main branch containing the stable version of the project.  
 - *uc1-create-contacts* → Implementation of creating a new contact.  
 - *uc2-add-contacts* → Added support for adding multiple contacts to the system.  
-- *uc3-edit-contacts* → Implementation of editing an existing contact.  
-- *uc4-delete-contact* → Implementation of deleting a contact.  
-- *uc5-add-multiple-contacts* → Added feature to manage multiple contacts in one address book.  
-- *uc6-add-multiple-address-book* → Refactored code to support multiple address books.
+- *uc3-edit-contacts* → Implementation of editing an existing contact.   
+- *uc4-add-multiple-contacts* → Added feature to manage multiple contacts in one address book.  
+- *uc5-add-multiple-address-book* → Refactored code to support multiple address books.
 ## 📌 Features (Use Cases)
 
 ### *UC 1: Add New Contact*
